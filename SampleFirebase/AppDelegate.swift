@@ -6,6 +6,7 @@
 //  Copyright © 2016 Takahiro Tsuchiya. All rights reserved.
 //
 
+import Firebase
 import UIKit
 
 @UIApplicationMain
@@ -16,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+
+        // Use Firebase library to configure APIs
+        FIRApp.configure()
+
         return true
     }
 
