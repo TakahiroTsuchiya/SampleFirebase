@@ -61,3 +61,11 @@ Carthage/Build
 
 fastlane/report.xml
 fastlane/screenshots
+
+# Firebase
+#
+GoogleService-Info.plist
+
+# 
+#
+SampleFirebase.xcworkspace
