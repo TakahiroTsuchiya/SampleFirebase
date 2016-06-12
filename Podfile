@@ -8,5 +8,6 @@ target 'SampleFirebase' do
   pod 'Firebase/Core'
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
+  pod 'SVGKit', :git => 'https://github.com/SVGKit/SVGKit.git', :branch => '2.x'
   pod 'SwiftyJSON'
 end

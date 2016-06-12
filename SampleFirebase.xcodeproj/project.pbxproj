@@ -11,9 +11,18 @@
 		C309EE571CF9D05000DC265E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C309EE561CF9D05000DC265E /* AppDelegate.swift */; };
 		C309EE5E1CF9D05000DC265E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C309EE5D1CF9D05000DC265E /* Assets.xcassets */; };
 		C309EE611CF9D05000DC265E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C309EE5F1CF9D05000DC265E /* LaunchScreen.storyboard */; };
+		C3CA3C2B1D0D01A2000FEF66 /* auth_service_anonymous.svg in Resources */ = {isa = PBXBuildFile; fileRef = C3CA3C251D0D01A2000FEF66 /* auth_service_anonymous.svg */; };
+		C3CA3C2C1D0D01A2000FEF66 /* auth_service_email.svg in Resources */ = {isa = PBXBuildFile; fileRef = C3CA3C261D0D01A2000FEF66 /* auth_service_email.svg */; };
+		C3CA3C2D1D0D01A2000FEF66 /* auth_service_facebook.svg in Resources */ = {isa = PBXBuildFile; fileRef = C3CA3C271D0D01A2000FEF66 /* auth_service_facebook.svg */; };
+		C3CA3C2E1D0D01A2000FEF66 /* auth_service_github.svg in Resources */ = {isa = PBXBuildFile; fileRef = C3CA3C281D0D01A2000FEF66 /* auth_service_github.svg */; };
+		C3CA3C2F1D0D01A2000FEF66 /* auth_service_google.svg in Resources */ = {isa = PBXBuildFile; fileRef = C3CA3C291D0D01A2000FEF66 /* auth_service_google.svg */; };
+		C3CA3C301D0D01A2000FEF66 /* auth_service_twitter.svg in Resources */ = {isa = PBXBuildFile; fileRef = C3CA3C2A1D0D01A2000FEF66 /* auth_service_twitter.svg */; };
 		C3D399E51D0B875C00FD9838 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3D399E41D0B875C00FD9838 /* GoogleService-Info.plist */; };
 		C3D399E71D0B88D400FD9838 /* Function.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D399E61D0B88D400FD9838 /* Function.storyboard */; };
 		C3D399E91D0B894200FD9838 /* Dummy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D399E81D0B894200FD9838 /* Dummy.storyboard */; };
+		C3F1A09A1D0D462400214EDA /* AuthAnonymous.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F1A0991D0D462400214EDA /* AuthAnonymous.storyboard */; };
+		C3F1A09C1D0D468900214EDA /* AuthAnonymousViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F1A09B1D0D468900214EDA /* AuthAnonymousViewController.swift */; };
+		C3FB2E9D1D0D91350042704C /* AuthEmailPassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FB2E9C1D0D91350042704C /* AuthEmailPassword.storyboard */; };
 		C3FBFC361CF9D36100156DA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FBFC351CF9D36100156DA8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -26,9 +35,19 @@
 		C309EE5D1CF9D05000DC265E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C309EE601CF9D05000DC265E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C309EE621CF9D05000DC265E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3CA3C251D0D01A2000FEF66 /* auth_service_anonymous.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = auth_service_anonymous.svg; path = Resources/images/auth_service_anonymous.svg; sourceTree = "<group>"; };
+		C3CA3C261D0D01A2000FEF66 /* auth_service_email.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = auth_service_email.svg; path = Resources/images/auth_service_email.svg; sourceTree = "<group>"; };
+		C3CA3C271D0D01A2000FEF66 /* auth_service_facebook.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = auth_service_facebook.svg; path = Resources/images/auth_service_facebook.svg; sourceTree = "<group>"; };
+		C3CA3C281D0D01A2000FEF66 /* auth_service_github.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = auth_service_github.svg; path = Resources/images/auth_service_github.svg; sourceTree = "<group>"; };
+		C3CA3C291D0D01A2000FEF66 /* auth_service_google.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = auth_service_google.svg; path = Resources/images/auth_service_google.svg; sourceTree = "<group>"; };
+		C3CA3C2A1D0D01A2000FEF66 /* auth_service_twitter.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = auth_service_twitter.svg; path = Resources/images/auth_service_twitter.svg; sourceTree = "<group>"; };
+		C3CA3C311D0D01BD000FEF66 /* SampleFirebase-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleFirebase-Bridging-Header.h"; sourceTree = "<group>"; };
 		C3D399E41D0B875C00FD9838 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C3D399E61D0B88D400FD9838 /* Function.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Function.storyboard; path = Storyboard/Function.storyboard; sourceTree = "<group>"; };
 		C3D399E81D0B894200FD9838 /* Dummy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Dummy.storyboard; path = Storyboard/Dummy.storyboard; sourceTree = "<group>"; };
+		C3F1A0991D0D462400214EDA /* AuthAnonymous.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = AuthAnonymous.storyboard; path = Storyboard/AuthAnonymous.storyboard; sourceTree = "<group>"; };
+		C3F1A09B1D0D468900214EDA /* AuthAnonymousViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthAnonymousViewController.swift; path = ViewController/AuthAnonymousViewController.swift; sourceTree = "<group>"; };
+		C3FB2E9C1D0D91350042704C /* AuthEmailPassword.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AuthEmailPassword.storyboard; sourceTree = "<group>"; };
 		C3FBFC351CF9D36100156DA8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboard/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +85,9 @@
 			isa = PBXGroup;
 			children = (
 				C309EE561CF9D05000DC265E /* AppDelegate.swift */,
+				C3CA3C311D0D01BD000FEF66 /* SampleFirebase-Bridging-Header.h */,
 				C3FBFC341CF9D33E00156DA8 /* ViewController */,
+				C3CA3C231D0D0188000FEF66 /* Resources */,
 				C3FBFC331CF9D32E00156DA8 /* Storyboard */,
 				C309EE5D1CF9D05000DC265E /* Assets.xcassets */,
 				C309EE5F1CF9D05000DC265E /* LaunchScreen.storyboard */,
@@ -76,12 +97,35 @@
 			path = SampleFirebase;
 			sourceTree = "<group>";
 		};
+		C3CA3C231D0D0188000FEF66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3CA3C241D0D0198000FEF66 /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C3CA3C241D0D0198000FEF66 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C3CA3C251D0D01A2000FEF66 /* auth_service_anonymous.svg */,
+				C3CA3C261D0D01A2000FEF66 /* auth_service_email.svg */,
+				C3CA3C271D0D01A2000FEF66 /* auth_service_facebook.svg */,
+				C3CA3C281D0D01A2000FEF66 /* auth_service_github.svg */,
+				C3CA3C291D0D01A2000FEF66 /* auth_service_google.svg */,
+				C3CA3C2A1D0D01A2000FEF66 /* auth_service_twitter.svg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		C3FBFC331CF9D32E00156DA8 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
 				C3FBFC351CF9D36100156DA8 /* Main.storyboard */,
 				C3D399E61D0B88D400FD9838 /* Function.storyboard */,
 				C3D399E81D0B894200FD9838 /* Dummy.storyboard */,
+				C3F1A0991D0D462400214EDA /* AuthAnonymous.storyboard */,
+				C3FB2E9C1D0D91350042704C /* AuthEmailPassword.storyboard */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
@@ -89,6 +133,7 @@
 		C3FBFC341CF9D33E00156DA8 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C3F1A09B1D0D468900214EDA /* AuthAnonymousViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -171,12 +216,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CA3C2D1D0D01A2000FEF66 /* auth_service_facebook.svg in Resources */,
 				C309EE611CF9D05000DC265E /* LaunchScreen.storyboard in Resources */,
+				C3CA3C2B1D0D01A2000FEF66 /* auth_service_anonymous.svg in Resources */,
 				C3D399E91D0B894200FD9838 /* Dummy.storyboard in Resources */,
 				C3D399E71D0B88D400FD9838 /* Function.storyboard in Resources */,
 				C3D399E51D0B875C00FD9838 /* GoogleService-Info.plist in Resources */,
+				C3F1A09A1D0D462400214EDA /* AuthAnonymous.storyboard in Resources */,
+				C3CA3C2C1D0D01A2000FEF66 /* auth_service_email.svg in Resources */,
 				C309EE5E1CF9D05000DC265E /* Assets.xcassets in Resources */,
 				C3FBFC361CF9D36100156DA8 /* Main.storyboard in Resources */,
+				C3FB2E9D1D0D91350042704C /* AuthEmailPassword.storyboard in Resources */,
+				C3CA3C2F1D0D01A2000FEF66 /* auth_service_google.svg in Resources */,
+				C3CA3C301D0D01A2000FEF66 /* auth_service_twitter.svg in Resources */,
+				C3CA3C2E1D0D01A2000FEF66 /* auth_service_github.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F1A09C1D0D468900214EDA /* AuthAnonymousViewController.swift in Sources */,
 				C309EE571CF9D05000DC265E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +348,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT)/SampleFirebase/SampleFirebase-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -332,6 +387,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT)/SampleFirebase/SampleFirebase-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

@@ -5,15 +5,15 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Dummy-->
+        <!--AuthAnonymous-->
         <scene sceneID="b3b-tH-dC1">
             <objects>
-                <viewControllerPlaceholder storyboardName="Dummy" id="5fn-uF-Lod" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="AuthAnonymous" id="5fn-uF-Lod" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="98s-EH-up0"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dx7-mh-VUs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-111" y="-228"/>
+            <point key="canvasLocation" x="-84" y="-202"/>
         </scene>
         <!--Dummy-->
         <scene sceneID="kDh-29-w57">
@@ -24,6 +24,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9AJ-mn-2j0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-111" y="-135"/>
+        </scene>
+        <!--Dummy-->
+        <scene sceneID="SdF-yA-wNr">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Dummy" id="jul-hy-hkP" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RE3-Hk-qOI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-111" y="-49"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="iLx-fg-bgf">
@@ -37,6 +45,7 @@
                     <connections>
                         <segue destination="5fn-uF-Lod" kind="relationship" relationship="viewControllers" id="oPY-RI-C8u"/>
                         <segue destination="4b1-pT-WDA" kind="relationship" relationship="viewControllers" id="vXm-3C-c2Z"/>
+                        <segue destination="jul-hy-hkP" kind="showDetail" id="toE-f4-hzs"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rKy-ss-IZ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
