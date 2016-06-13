@@ -5,25 +5,25 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Dummy-->
+        <!--AuthAnonymous-->
         <scene sceneID="b3b-tH-dC1">
             <objects>
-                <viewControllerPlaceholder storyboardName="Dummy" id="5fn-uF-Lod" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="98s-EH-up0"/>
+                <viewControllerPlaceholder storyboardName="AuthAnonymous" id="5fn-uF-Lod" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="more" id="98s-EH-up0"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dx7-mh-VUs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-111" y="-228"/>
+            <point key="canvasLocation" x="-84" y="-202"/>
         </scene>
-        <!--Dummy-->
+        <!--AuthEmailPassword-->
         <scene sceneID="kDh-29-w57">
             <objects>
-                <viewControllerPlaceholder storyboardName="Dummy" id="4b1-pT-WDA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="95R-md-X1K"/>
+                <viewControllerPlaceholder storyboardName="AuthEmailPassword" id="4b1-pT-WDA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="95R-md-X1K"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9AJ-mn-2j0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-111" y="-135"/>
+            <point key="canvasLocation" x="-74" y="146"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="iLx-fg-bgf">
