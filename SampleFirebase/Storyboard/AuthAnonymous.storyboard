@@ -25,13 +25,25 @@
                                     <action selector="loginAction:" destination="mSj-Q7-1pO" eventType="touchUpInside" id="dBY-dC-jiZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wRW-AN-Eyi">
+                                <rect key="frame" x="20" y="128" width="560" height="122"/>
+                                <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="loginAction:" destination="mSj-Q7-1pO" eventType="touchUpInside" id="GKu-7l-6Jd"/>
+                                    <action selector="logoutAction:" destination="mSj-Q7-1pO" eventType="touchUpInside" id="9Pl-TM-CtB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="pVk-Ag-MGZ" firstAttribute="top" secondItem="aHJ-lr-06X" secondAttribute="bottom" id="D7k-Lh-wdJ"/>
-                            <constraint firstItem="pVk-Ag-MGZ" firstAttribute="trailing" secondItem="QIC-OB-ShL" secondAttribute="trailingMargin" id="irs-0P-vjp"/>
-                            <constraint firstItem="e9Y-TP-KFt" firstAttribute="top" secondItem="pVk-Ag-MGZ" secondAttribute="bottom" constant="458" id="yN9-nv-l5m"/>
-                            <constraint firstItem="pVk-Ag-MGZ" firstAttribute="leading" secondItem="QIC-OB-ShL" secondAttribute="leadingMargin" id="zPf-gE-ejN"/>
+                            <constraint firstItem="wRW-AN-Eyi" firstAttribute="top" secondItem="aHJ-lr-06X" secondAttribute="bottom" constant="108" id="M2O-3K-JCi"/>
+                            <constraint firstItem="pVk-Ag-MGZ" firstAttribute="leading" secondItem="wRW-AN-Eyi" secondAttribute="leading" id="XCz-8X-nAa"/>
+                            <constraint firstItem="pVk-Ag-MGZ" firstAttribute="trailing" secondItem="QIC-OB-ShL" secondAttribute="trailingMargin" id="Ylh-9g-PEd"/>
+                            <constraint firstItem="pVk-Ag-MGZ" firstAttribute="top" secondItem="aHJ-lr-06X" secondAttribute="bottom" id="aEG-w5-Obn"/>
+                            <constraint firstItem="e9Y-TP-KFt" firstAttribute="top" secondItem="wRW-AN-Eyi" secondAttribute="bottom" constant="350" id="ePa-OI-CMO"/>
+                            <constraint firstItem="e9Y-TP-KFt" firstAttribute="top" secondItem="pVk-Ag-MGZ" secondAttribute="bottom" constant="458" id="log-yy-HYv"/>
+                            <constraint firstItem="pVk-Ag-MGZ" firstAttribute="leading" secondItem="QIC-OB-ShL" secondAttribute="leadingMargin" id="rs3-nw-biY"/>
+                            <constraint firstItem="pVk-Ag-MGZ" firstAttribute="trailing" secondItem="wRW-AN-Eyi" secondAttribute="trailing" id="wXP-Rv-4Hm"/>
                         </constraints>
                     </view>
                     <connections>

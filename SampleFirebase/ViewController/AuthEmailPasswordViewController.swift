@@ -1,26 +1,25 @@
 //
-//  AuthAnonymousViewController.swift
+//  AuthEmailPasswordViewController.swift
 //  SampleFirebase
 //
-//  Created by Takahiro Tsuchiya on 6/12/16.
+//  Created by Takahiro Tsuchiya on 6/13/16.
 //  Copyright © 2016 Takahiro Tsuchiya. All rights reserved.
 //
 
+import Firebase
 import FirebaseAuth
-import SVGKit
 import UIKit
 
-class AuthAnonymousViewController: UIViewController {
+class AuthEmailPasswordViewController: UIViewController {
 
-    @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var inputEmail: UITextField!
 
+    @IBOutlet weak var inputPassword: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-
-        let svgImage = SVGKImage(named: "auth_service_anonymous.svg")
-        self.loginButton.imageView?.image = svgImage.UIImage
     }
 
     override func didReceiveMemoryWarning() {
@@ -40,19 +39,28 @@ class AuthAnonymousViewController: UIViewController {
     */
 
     @IBAction func loginAction(sender: AnyObject) {
-        authLogin()
-    }
-    private func authLogin() {
 
-        FIRAuth.auth()?.signInAnonymouslyWithCompletion() {
-            (user, error) in
-                print("[user]" + "\(user)")
-                print("[error]" + "\(error)")
+        let email = self.inputEmail.text
+        if email != nil {
+            return
         }
+        
+        let password = self.inputPassword.text
+        if password != nil {
+            return
+        }
+
+        FIRAuth.auth()?.createUserWithEmail(email!, password: password!, completion: {
+            (user, error) in
+            print("[user]" + "\(user)")
+            print("[error]" + "\(error)")
+        })
+        
     }
-
+    
     @IBAction func logoutAction(sender: AnyObject) {
-
+        
         try! FIRAuth.auth()?.signOut()
     }
+    
 }
